@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Maquetación HTML</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+	
+	<header>
+		<div class="col-lg-2">
+			<img class="logo" src="assets/img/logo.png">
+		</div>
+		<div class="col-lg-5 col-lg-offset-3">
+			<h3>Dashboard<i class="glyphicon glyphicon-chevron-down flecha_abajo"></i></h3>
+		</div>
+		<div class="col-lg-2">
+			<img class="img_msg" src="assets/img/msg.png">
+			<img class="img_log" src="assets/img/feliz.png">
+		</div>	
+	</header>
+
+	<div class="col-lg-12 inicio">
+		<div class="col-lg-6 cont"> 
+			<img class="docum_dash" src="assets/img/08.jpg" alt=""><h2 class="text_h2">Dashboard de solicitudes</h2>
+	  	</div>
+	  	<div class="col-lg-6 cont2">
+	  		<button type="button" class="btn btn-primary">Crear solicitud</button>
+	  	</div>
+		
+		<div class="col-lg-12 cont_cuadros">
+		  	<div class="cuadros_graficas col-lg-2">
+		  		<p class="titulo_in">Estadística puntual</p>
+		  	</div>
+		  	<div class="cuadros_graficas col-lg-2">
+		  		<p class="titulo_in">Estadística puntual</p>
+		  	</div>
+		  	<div class="cuadros_graficas2 col-lg-2">
+		  		<p class="titulo_in">Estadística puntual</p>
+		  	</div>
+		  	<div class="cuadros_graficas2 col-lg-2">
+		  		<p class="titulo_in">Estadística puntual</p>
+		  	</div>
+		  	<div class="cuadros_graficas3 col-lg-2">
+		  		<p class="titulo_in">Estadística puntual</p>
+		  	</div>
+		  	<div class="cuadros_graficas3 col-lg-2">
+		  		<p class="titulo_in">Estadística puntual</p>
+		  	</div>
+		  	<div class="cuadros_graficas4 col-lg-2">
+		  		<p class="titulo_in">Estadística puntual</p>
+		  	</div>
+		  	<div class="cuadros_graficas4 col-lg-2">
+		  		<p class="titulo_in">Estadística puntual</p>
+		  	</div>
+	  	</div>
+  	</div>
+
+	<div class="ordenar_por col-lg-12">
+		<nav class="navbar">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <p class="navbar-brand">Ordenar por:</p>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Status<i class="glyphicon glyphicon-chevron-down flecha_abajo"></i></a></li>
+		      <li><a href="#">Clientes<i class="glyphicon glyphicon-chevron-down flecha_abajo"></i></a></li>
+		      <li><a href="#">Fecha<i class="glyphicon glyphicon-chevron-down flecha_abajo"></i></a></li>
+		      <li><a href="#">Productos<i class="glyphicon glyphicon-chevron-down flecha_abajo"></i></a></li>
+		      <li><a href="#">Asignación<i class="glyphicon glyphicon-chevron-down flecha_abajo"></i></a></li>
+		      <p class="navbar-brand">Ver por:</p>
+		      	<input type="radio" name="optradio">Solicitud
+				<input type="radio" name="optradio">Producto
+		    </ul>
+		    <form class="navbar-form navbar-left">
+		      <div class="input-group">
+		        <input type="text" class="form-control" placeholder="Search">
+		        <div class="input-group-btn">
+		          <button class="btn btn-default" type="submit" style="padding: 6px 22px;">
+		            <i class="glyphicon glyphicon-search"></i>
+		          </button>
+		        </div>
+		      </div>
+		    </form>
+		  </div>
+		</nav>
+	</div>
+
+	<div class="col-lg-12">
+		<div class="col-lg-3">
+			<div class="cards">
+				<div class="progress" style="background-color: rgba(233, 29, 99, 0.40);">
+					<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%; background-color: #e91d63;">50%
+					</div>
+				</div>
+				<div class="tittle_cont_card">
+					<button type="button" class="btn_activo1">Activo - 50%</button>
+					<img class="notify" src="assets/img/04.png">
+					<p class="tittle_text">Título de la solicitud, en dos poderosas lineas p...</p>
+					<span class="leyenda">JJMA-A-2016/09/15-001</span>
+					<hr>
+					<div id="contenedor">
+					    <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked" />
+					    <label for="tab-1" class="tab-label-1">Pestaña1</label>
+					    
+					    <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
+					    <label for="tab-2" class="tab-label-2">Pestaña2</label>
+	                            
+					    <div class="content">
+					        <div class="content-1">
+					            
+					        </div>
+					        <div class="content-2">
+					            
+					        </div>
+					    </div>
+					</div>
+					<div class="contenido_bandera">
+						<img class="pais" src="assets/img/pais.png"><p class="texto_pais">España</p>
+					</div>
+					<p class="atlantia">Atlantia Search</p>
+					<p class="nombre">Juan José Mora Villanueva</p>
+					<p class="creado">Creado por el Jul 20 - 13:50pm</p>
+					<p class="presupuesto">Presupuesto: <span class="precio">$100 000 MXN</span></p>
+
+					<center><button type="button" class="btn_ver">Ver solicitud completa</button></center>
+
+					<p class="leyenda_final">No esta asignado a nadie, agrega a alguien!</p>
+
+					<div class="box">
+						<img class="icons_finally" src="assets/img/07.png" alt="">
+						<img class="icons_finally" src="assets/img/06.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-3">
+			<div class="cards">
+				<div class="progress" style="background-color: rgba(0, 202, 105, 0.40);">
+					<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%; background-color: #00ca69;">50%
+					</div>
+				</div>
+				<div class="tittle_cont_card">
+					<button type="button" class="btn_activo3">Activo - 50%</button>
+					<img class="notify" src="assets/img/04.png">
+					<p class="tittle_text">Título de la solicitud, en dos poderosas lineas p...</p>
+					<span class="leyenda">JJMA-A-2016/09/15-001</span>
+					<hr>
+					<div id="contenedor3">
+					    <input id="tab-13" type="radio" name="radio-set" class="tab-selector-13" checked="checked" />
+					    <label for="tab-13" class="tab-label-13">Pestaña1</label>
+					    
+					    <input id="tab-23" type="radio" name="radio-set" class="tab-selector-23" />
+					    <label for="tab-23" class="tab-label-23">Pestaña2</label>
+	                            
+					    <div class="content3">
+					        <div class="content-13">
+					            
+					        </div>
+					        <div class="content-23">
+					            
+					        </div>
+					    </div>
+					</div>
+					<div class="contenido_bandera">
+						<img class="pais" src="assets/img/pais.png"><p class="texto_pais">España</p>
+					</div>
+					<p class="atlantia">Atlantia Search</p>
+					<p class="nombre">Juan José Mora Villanueva</p>
+					<p class="creado">Creado por el Jul 20 - 13:50pm</p>
+					<p class="presupuesto">Presupuesto: <span class="precio">$100 000 MXN</span></p>
+
+					<center><button type="button" class="btn_ver3">Ver solicitud completa</button></center>
+
+					<p class="leyenda_final">Asignado a <span style="color: #00ca69; font-weight: 700; font-size: 10px;">Andrea Ferrari</span></p>
+
+					<div class="box">
+						<img class="icons_finally" src="assets/img/07.png" alt="">
+						<img class="icons_finally" src="assets/img/06.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-3">
+			<div class="cards">
+				<div class="progress" style="background-color: rgba(84, 160, 247, 0.40);">
+					<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%; background-color: #54a0f7;">0%
+					</div>
+				</div>
+				<div class="tittle_cont_card">
+					<button type="button" class="btn_activo5">Inactivo</button>
+					<img class="notify" src="assets/img/04.png">
+					<p class="tittle_text">Título de la solicitud, en dos poderosas lineas p...</p>
+					<span class="leyenda">JJMA-A-2016/09/15-001</span>
+					<hr>
+					<div id="contenedor5">
+					    <input id="tab-15" type="radio" name="radio-set" class="tab-selector-15" checked="checked" />
+					    <label for="tab-15" class="tab-label-15">Pestaña1</label>
+					    
+					    <input id="tab-25" type="radio" name="radio-set" class="tab-selector-25" />
+					    <label for="tab-25" class="tab-label-25">Pestaña2</label>
+	                            
+					    <div class="content5">
+					        <div class="content-15">
+					            
+					        </div>
+					        <div class="content-25">
+					            
+					        </div>
+					    </div>
+					</div>
+
+					<div class="contenido_bandera">
+						<img class="pais" src="assets/img/pais.png"><p class="texto_pais">España</p>
+					</div>
+					<p class="atlantia">Atlantia Search</p>
+					<p class="nombre">Juan José Mora Villanueva</p>
+					<p class="creado">Creado por el Jul 20 - 13:50pm</p>
+					<p class="presupuesto">Presupuesto: <span class="precio">$100 000 MXN</span></p>
+
+					<center><button type="button" class="btn_ver5">Ver solicitud completa</button></center>
+
+					<p class="leyenda_final">Asignado a <span style="color: #54a0f7; font-weight: 700; font-size: 10px;">Andrea Ferrari</span></p>
+
+					<div class="box">
+						<img class="icons_finally" src="assets/img/07.png" alt="">
+						<img class="icons_finally" src="assets/img/06.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-3">
+			<div class="cards">
+				<div class="progress" style="background-color: rgba(147, 67, 202, 0.40);">
+					<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">0%
+					</div>
+				</div>
+				<div class="tittle_cont_card">
+					<button type="button" class="btn_activo7">Borrador</button>
+					<img class="notify" src="assets/img/04.png">
+					<p class="tittle_text">Título de la solicitud, en dos poderosas lineas p...</p>
+					<span class="leyenda">JJMA-A-2016/09/15-001</span>
+					<hr>
+					<div id="contenedor7">
+					    <input id="tab-17" type="radio" name="radio-set" class="tab-selector-17" checked="checked" />
+					    <label for="tab-17" class="tab-label-17">Pestaña1</label>
+					    
+					    <input id="tab-27" type="radio" name="radio-set" class="tab-selector-27" />
+					    <label for="tab-27" class="tab-label-27">Pestaña2</label>
+	                            
+					    <div class="content7">
+					        <div class="content-17">
+					            
+					        </div>
+					        <div class="content-27">
+					            
+					        </div>
+					    </div>
+					</div>
+					<div class="contenido_bandera">
+						<img class="pais" src="assets/img/pais.png"><p class="texto_pais">España</p>
+					</div>
+					<p class="atlantia">Atlantia Search</p>
+					<p class="nombre">Juan José Mora Villanueva</p>
+					<p class="creado">Creado por el Jul 20 - 13:50pm</p>
+					<p class="presupuesto">Presupuesto: <span class="precio">$100 000 MXN</span></p>
+
+					<center><button type="button" class="btn_ver7">Ver solicitud completa</button></center>
+
+					<p class="leyenda_final">Asignado a <span style="color: #9343ca; font-weight: 700; font-size: 10px;">Andrea Ferrari</span></p>
+
+					<div class="box">
+						<img class="icons_finally" src="assets/img/07.png" alt="">
+						<img class="icons_finally" src="assets/img/06.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-3">
+			<div class="cards">
+				<div class="progress" style="background-color: rgba(233, 29, 99, 0.40);">
+					<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%; background-color: #e91d63;">50%
+					</div>
+				</div>
+				<div class="tittle_cont_card">
+					<button type="button" class="btn_activo1">Activo - 50%</button>
+					<img class="notify" src="assets/img/04.png">
+					<p class="tittle_text">Título de la solicitud, en dos poderosas lineas p...</p>
+					<span class="leyenda">JJMA-A-2016/09/15-001</span>
+					<hr>
+					<div id="contenedor2">
+					    <input id="tab-12" type="radio" name="radio-set" class="tab-selector-11" checked="checked" />
+					    <label for="tab-12" class="tab-label-11">Pestaña1</label>
+					    
+					    <input id="tab-22" type="radio" name="radio-set" class="tab-selector-22" />
+					    <label for="tab-22" class="tab-label-22">Pestaña2</label>
+	                            
+					    <div class="content2">
+					        <div class="content-11">
+					            
+					        </div>
+					        <div class="content-22">
+					            
+					        </div>
+					    </div>
+					</div>
+					<div class="contenido_bandera">
+						<img class="pais" src="assets/img/pais.png"><p class="texto_pais">España</p>
+					</div>
+					<p class="atlantia">Atlantia Search</p>
+					<p class="nombre">Juan José Mora Villanueva</p>
+					<p class="creado">Creado por el Jul 20 - 13:50pm</p>
+					<p class="presupuesto">Presupuesto: <span class="precio">$100 000 MXN</span></p>
+
+					<center><button type="button" class="btn_ver">Ver solicitud completa</button></center>
+
+					<p class="leyenda_final">Asignado a <span style="color: #e91d63; font-weight: 700; font-size: 10px;">Andrea Ferrari, Juan Mora, Itz...</span></p>
+
+					<div class="box">
+						<img class="icons_finally" src="assets/img/07.png" alt="">
+						<img class="icons_finally" src="assets/img/06.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-3">
+			<div class="cards">
+				<div class="progress" style="background-color: rgba(0, 202, 105, 0.40);">
+					<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%; background-color: #00ca69;">50%
+					</div>
+				</div>
+				<div class="tittle_cont_card">
+					<button type="button" class="btn_activo4">Activo - 50%</button>
+					<img class="notify" src="assets/img/04.png">
+					<p class="tittle_text">Título de la solicitud, en dos poderosas lineas p...</p>
+					<span class="leyenda">JJMA-A-2016/09/15-001</span>
+					<hr>
+					<div id="contenedor4">
+					    <input id="tab-14" type="radio" name="radio-set" class="tab-selector-14" checked="checked" />
+					    <label for="tab-14" class="tab-label-14">Pestaña1</label>
+					    
+					    <input id="tab-24" type="radio" name="radio-set" class="tab-selector-24" />
+					    <label for="tab-24" class="tab-label-24">Pestaña2</label>
+	                            
+					    <div class="content4">
+					        <div class="content-14">
+					            
+					        </div>
+					        <div class="content-24">
+					            
+					        </div>
+					    </div>
+					</div>
+					<div class="contenido_bandera">
+						<img class="pais" src="assets/img/pais.png"><p class="texto_pais">España</p>
+					</div>
+					<p class="atlantia">Atlantia Search</p>
+					<p class="nombre">Juan José Mora Villanueva</p>
+					<p class="creado">Creado por el Jul 20 - 13:50pm</p>
+					<p class="presupuesto">Presupuesto: <span class="precio">$100 000 MXN</span></p>
+
+					<center><button type="button" class="btn_ver4">Ver solicitud completa</button></center>
+
+					<p class="leyenda_final">Asignado a <span style="color: #00ca69; font-weight: 700; font-size: 10px;">Andrea Ferrari</span></p>
+
+					<div class="box">
+						<img class="icons_finally" src="assets/img/07.png" alt="">
+						<img class="icons_finally" src="assets/img/06.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-3">
+			<div class="cards">
+				<div class="progress" style="background-color: rgba(84, 160, 247, 0.40);">
+					<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%; background-color: #54a0f7;">0%
+					</div>
+				</div>
+				<div class="tittle_cont_card">
+					<button type="button" class="btn_activo6">Inactivo</button>
+					<img class="notify" src="assets/img/04.png">
+					<p class="tittle_text">Título de la solicitud, en dos poderosas lineas p...</p>
+					<span class="leyenda">JJMA-A-2016/09/15-001</span>
+					<hr>
+					<div id="contenedor6">
+					    <input id="tab-16" type="radio" name="radio-set" class="tab-selector-16" checked="checked" />
+					    <label for="tab-16" class="tab-label-16">Pestaña1</label>
+					    
+					    <input id="tab-26" type="radio" name="radio-set" class="tab-selector-26" />
+					    <label for="tab-26" class="tab-label-26">Pestaña2</label>
+	                            
+					    <div class="content6">
+					        <div class="content-16">
+					            
+					        </div>
+					        <div class="content-26">
+					            
+					        </div>
+					    </div>
+					</div>
+					<div class="contenido_bandera">
+						<img class="pais" src="assets/img/pais.png"><p class="texto_pais">España</p>
+					</div>
+					<p class="atlantia">Atlantia Search</p>
+					<p class="nombre">Juan José Mora Villanueva</p>
+					<p class="creado">Creado por el Jul 20 - 13:50pm</p>
+					<p class="presupuesto">Presupuesto: <span class="precio">$100 000 MXN</span></p>
+
+					<center><button type="button" class="btn_ver6">Ver solicitud completa</button></center>
+
+					<p class="leyenda_final">Asignado a <span style="color: #54a0f7; font-weight: 700; font-size: 10px;">Andrea Ferrari</span></p>
+
+					<div class="box">
+						<img class="icons_finally" src="assets/img/07.png" alt="">
+						<img class="icons_finally" src="assets/img/06.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-3">
+			<div class="cards">
+				<div class="progress" style="background-color: rgba(147, 67, 202, 0.40);">
+					<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">0%
+					</div>
+				</div>
+				<div class="tittle_cont_card">
+					<button type="button" class="btn_activo8">Borrador</button>
+					<img class="notify" src="assets/img/04.png">
+					<p class="tittle_text">Título de la solicitud, en dos poderosas lineas p...</p>
+					<span class="leyenda">JJMA-A-2016/09/15-001</span>
+					<hr>
+					<div id="contenedor8">
+					    <input id="tab-18" type="radio" name="radio-set" class="tab-selector-18" checked="checked" />
+					    <label for="tab-18" class="tab-label-18">Pestaña1</label>
+					    
+					    <input id="tab-28" type="radio" name="radio-set" class="tab-selector-28" />
+					    <label for="tab-28" class="tab-label-28">Pestaña2</label>
+	                            
+					    <div class="content8">
+					        <div class="content-18">
+					            
+					        </div>
+					        <div class="content-28">
+					            
+					        </div>
+					    </div>
+					</div>
+					<div class="contenido_bandera">
+						<img class="pais" src="assets/img/pais.png"><p class="texto_pais">España</p>
+					</div>
+					<p class="atlantia">Atlantia Search</p>
+					<p class="nombre">Juan José Mora Villanueva</p>
+					<p class="creado">Creado por el Jul 20 - 13:50pm</p>
+					<p class="presupuesto">Presupuesto: <span class="precio">$100 000 MXN</span></p>
+
+					<center><button type="button" class="btn_ver8">Ver solicitud completa</button></center>
+
+					<p class="leyenda_final">Asignado a <span style="color: #9343ca; font-weight: 700; font-size: 10px;">Andrea Ferrari</span></p>
+					<div class="box">
+						<img class="icons_finally" src="assets/img/07.png" alt="">
+						<img class="icons_finally" src="assets/img/06.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
